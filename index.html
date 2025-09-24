@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="image/icon.png" />
+  <title>Flipkart</title>
+  <link rel="stylesheet" href="style.css" />
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+  <div class="topbar">
+    <div class="brand">
+      <div class="logo">Flipkart</div>
+        <div style="font-size:16px;">
+          <span style="color:rgb(172, 168, 168);">Explore</span>
+          <span style="color:yellow;"> Plus</span>
+        </div>
+      </div>
+      <div class="icons">
+        <div class="icon">Login</div>
+        <div class="icon">Cart</div>
+        <div class="icon">Become a seller</div>
+      </div>
+  </div>
+
+  <div class="search-row">
+    <div class="search">
+      <input placeholder="Search for products, brands and more" />
+      <button>Search</button>
+  </div>
+    </div>
+  </div>
+
+  <div class="nav">
+    <div class="container flex" style="align-items:center">
+      <label class="cat"><img src="/image/min.webp" alt="a"/><span>Minutes</span></label>
+         <label class="cat"><img src="/image/gro.webp" alt="m"/><span>Grocery</span></label>
+          <label class="cat"><img src="/image/trave.webp" alt="m"/><span>Travel</span></label>
+          <label class="cat"><img src="/image/fashion.jpg" alt="f"/><span>Fashion</span></label>
+          <label class="cat"><img src="/image/elec.jfif" alt="e"/><span>Electronics</span></label>
+          <label class="cat"><img src="/image/home.png" alt="h"/><span>Home</span></label>
+          <label class="cat"><img src="/image/app.webp" alt="a"/><span>Appliances</span></label>
+          <label class="cat"><img src="/image/phone.webp" alt="a"/><span>Mobile</span></label>
+          <label class="cat"><img src="/image/fur.webp" alt="a"/><span>Furniture</span></label>
+          <label class="cat"><img src="/image/bea.jfif" alt="a"/><span>Beauty</span></label>
+    </div>
+  </div>
+
+
+  <main class="container_hero">
+  <div id="carouselExampleControls" class="carousel slide w-100" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="/image/ba1.webp" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="/image/ba2.webp" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="/image/ba3.webp" class="d-block w-100" alt="Slide 3">
+    </div>
+  </div>
+</div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+
+        <div class="offer" style="display:flex;gap:12px;align-items:center;overflow:auto;">
+          <div style="min-width:120px;padding:8px;background:#fff;border-radius:8px"><b>Daily Deals</b></div>
+          <div style="min-width:120px;padding:8px;background:#fff;border-radius:8px"><b>TopOffers</b> </div>
+          <div style="min-width:120px;padding:8px;background:#fff;border-radius:8px"><b>Upto 70% Off</b></div>
+          <div style="min-width:120px;padding:8px;background:#fff;border-radius:8px"><b>Bank Offers</b></div>
+        </div>
+      </div>
+
+    
+      <div class="products" aria-live="polite">
+        <article class="card">
+          <div class="img"><img src="/image/sp.webp" alt="p1"></div>
+          <h4>Smartphone Model A</h4>
+          <div class="price"><span>₹12,999</span><span class="old">₹18,999</span><span class="badge">30% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Free delivery | No-cost EMI</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="/image/shi.webp" alt="p2"></div>
+          <h4>Men's Casual Shirt</h4>
+          <div class="price"><span>₹699</span><span class="old">₹1,299</span><span class="badge">46% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Easy return | Cash on Delivery</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="/image/wir.avif" alt="p3"></div>
+          <h4>Wireless Headphones</h4>
+          <div class="price"><span>₹1,999</span><span class="old">₹3,499</span><span class="badge">43% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">1 Year warranty</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="/image/mix.webp" alt="p4"></div>
+          <h4>Kitchen Mixer</h4>
+          <div class="price"><span>₹4,599</span><span class="old">₹6,999</span><span class="badge">34% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Delivered in 3 days</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="/image/tv.webp" alt="p5"></div>
+          <h4>Smart TV 43"</h4>
+          <div class="price"><span>₹22,999</span><span class="old">₹29,999</span><span class="badge">23% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Installation included</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="/image/dres.jfif" alt="p6"></div>
+          <h4>Women's Dress</h4>
+          <div class="price"><span>₹899</span><span class="old">₹1,599</span><span class="badge">43% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Free returns</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="/image/blu.webp" alt="p7"></div>
+          <h4>Bluetooth Speaker</h4>
+          <div class="price"><span>₹1,199</span><span class="old">₹2,199</span><span class="badge">45% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Portable | 10 Hrs play</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/air.webp" alt="p8"></div>
+          <h4>Air Fryer</h4>
+          <div class="price"><span>₹5,499</span><span class="old">₹8,999</span><span class="badge">39% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Healthy cooking</div>
+        </article>
+         <article class="card">
+          <div class="img"><img src="image/sun.jfif" alt="p1"></div>
+          <h4>Sun Glass</h4>
+          <div class="price"><span>₹299</span><span class="old">₹500</span><span class="badge">30% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Free delivery | Cash on Delivery</div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/lap.jfif" alt="p1"></div>
+          <h4>Laptop</h4>
+          <div class="price"><span>₹42,999</span><span class="old">₹50,000</span><span class="badge">30% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">No-cost EMI</div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/ear.webp" alt="p1"></div>
+          <h4>Women Earings</h4>
+          <div class="price"><span>₹199</span><span class="old">₹300</span><span class="badge">30% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Delivered in 3 days</div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/oats.webp" alt="p1"></div>
+          <h4>Quaker Oats</h4>
+          <div class="price"><span>₹120</span><span class="old">₹180</span><span class="badge">30% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Free delivery | Healthy </div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/dal.webp" alt="p1"></div>
+          <h4>Black Masoor Dal</h4>
+          <div class="price"><span>₹129</span><span class="old">₹189</span><span class="badge">30% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Delivered in 1 hour</div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/lip.webp" alt="p1"></div>
+          <h4>Sugar Matte Lipstick</h4>
+          <div class="price"><span>₹799</span><span class="old">1000</span><span class="badge">40% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Cash On Delivery</div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/kis.webp" alt="p1"></div>
+          <h4>Kid Maxi</h4>
+          <div class="price"><span>₹1,999</span><span class="old">₹3,000</span><span class="badge">20% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Only Few left</div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/nut.jfif" alt="p1"></div>
+          <h4>Beanut Butter</h4>
+          <div class="price"><span>₹999</span><span class="old">₹1,200</span><span class="badge">30% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Healthy cooking</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/men.webp" alt="p7"></div>
+          <h4>Kid Wear</h4>
+          <div class="price"><span>₹289</span><span class="old">₹300</span><span class="badge">12% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Great Discounts</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/fas.webp" alt="p7"></div>
+          <h4>Fastrack Watch</h4>
+          <div class="price"><span>₹1,199</span><span class="old">₹2,199</span><span class="badge">45% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">3 Year warranty</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/foun.webp" alt="p7"></div>
+          <h4>Serum Foundation</h4>
+          <div class="price"><span>₹349</span><span class="old">₹500</span><span class="badge">25% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Clinicly Tested</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/toy.webp" alt="p7"></div>
+          <h4>Musical Toy</h4>
+          <div class="price"><span>₹199</span><span class="old">₹250</span><span class="badge">22% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Mega Sale</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/set.webp" alt="p7"></div>
+          <h4>Top Selling Stationary</h4>
+          <div class="price"><span>₹199</span><span class="old">₹299</span><span class="badge">30% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Free Delivery</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/cyl.webp" alt="p7"></div>
+          <h4>Geared Cycle</h4>
+          <div class="price"><span>₹8,199</span><span class="old">₹1,099</span><span class="badge">32% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Only Few Left</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/wat.webp" alt="p7"></div>
+          <h4>Watter Bottle</h4>
+          <div class="price"><span>₹349</span><span class="old">₹500</span><span class="badge">22% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Cash On Delivery</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/bed.webp" alt="p7"></div>
+          <h4>BedSheet</h4>
+          <div class="price"><span>₹249</span><span class="old">₹350</span><span class="badge">25% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Portable</div>
+        </article>
+
+        <article class="card">
+          <div class="img"><img src="image/fridge.webp" alt="p5"></div>
+          <h4>Samsung SingleDoor Refrigerator</h4>
+          <div class="price"><span>₹18,990</span><span class="old">₹30,999</span><span class="badge">38% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Installation | Hot Deals</div>
+        </article>
+
+        
+        <article class="card">
+          <div class="img"><img src="image/saree.webp" alt="p5"></div>
+          <h4>Bollywood Georgette Saree</h4>
+          <div class="price"><span>₹398</span><span class="old">₹1599</span><span class="badge">75% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Free Delivery</div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/projector.webp" alt="p5"></div>
+          <h4> Projector (White)</h4>
+          <div class="price"><span>₹8,990</span><span class="old">₹21,599</span><span class="badge">59% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Only few left</div>
+        </article>
+
+          <article class="card">
+          <div class="img"><img src="image/cooker.webp" alt="p5"></div>
+          <h4>Cooker</h4>
+          <div class="price"><span>₹1,499</span><span class="old">₹2,100</span><span class="badge">59% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Happy and Healthy Cooking</div>
+        </article>
+
+         <article class="card">
+          <div class="img"><img src="image/hair.webp" alt="p5"></div>
+          <h4>Natural Hair Spray(200 ml)</h4>
+          <div class="price"><span>₹289</span><span class="old">₹399</span><span class="badge">28% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Top Discounts of the sale</div>
+        </article>
+
+        
+         <article class="card">
+          <div class="img"><img src="image/shoo.webp" alt="p5"></div>
+          <h4>Sneakers for Women</h4>
+          <div class="price"><span>₹1,158</span><span class="old">₹6,099</span><span class="badge">28% off</span></div>
+          <div style="margin-top:8px;color:#55606a;font-size:13px">Get More Discounts</div>
+        </article>
+        
+      </div>
+    </section>
+  </main>
+
+<footer style="background-color:#090a0c; color:#fff; padding:40px 20px; font-family:Arial, sans-serif;">
+  <div class="footer-container" style="display:flex; flex-wrap:wrap; justify-content:space-between; gap:24px; max-width:1200px; margin:auto;">
+    
+    <!-- Brand Section -->
+    <div style="min-width:220px;">
+      <strong style="font-size:18px; color:#fff;">escription</strong>
+      <p style="margin-top:8px; font-size:13px; color:#e0b6b6;">
+      India's leading online shopping platform.  
+      Discover millions of products across categories.  
+      Fast delivery, great deals, and easy returns.
+    </p>
+    <p style="margin-top:8px; font-size:13px; color:#e0b6b6;">Shop electronics, fashion, and more online.  
+    Enjoy huge discounts and daily deals.  
+    Secure payments and reliable delivery across India.
+    </p>
+    <p style="margin-top:8px; font-size:13px; color:#e0b6b6;">Your one-stop online shopping destination.  
+      Millions of products at your fingertips.  
+      Fast, convenient, and hassle-free shopping experience.
+    </p>
+    </div>
+
+    <div style="display:flex; gap:40px; flex-wrap:wrap;">
+      
+    <div>
+      <div style="font-weight:700; margin-bottom:8px;">Help</div>
+      <div style="font-size:13px; line-height:1.6; color:#e0b6b6;">
+          Payments<br/>
+          Shipping<br/>
+          Cancellation
+        </div>
+      </div>
+
+      <div>
+        <div style="font-weight:700; margin-bottom:8px;">Company</div>
+        <div style="font-size:13px; line-height:1.6; color:#e0b6b6;">
+          About<br/>
+          Careers
+        </div>
+      </div>
+
+      <div>
+        <div style="font-weight:700; margin-bottom:8px;">Policies</div>
+        <div style="font-size:13px; line-height:1.6; color:#e0b6b6;">
+          Privacy Policy<br/>
+          Terms of Use<br/>
+          FAQ
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align:center; margin-top:40px; font-size:12px; color:#c0c0c0;">
+    © 2025 Flipkart Clone. All rights reserved.
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
