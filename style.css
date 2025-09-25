@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.5;
 }
 
-/* TOPBAR */
+
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -86,7 +86,7 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* NAVIGATION */
+
 .nav {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -121,7 +121,7 @@ body {
   color: #2874f0;
 }
 
-/* HERO AREA */
+
 .container_hero {
   width: 100%;
 }
@@ -164,7 +164,7 @@ body {
 }
 
 
-/* PRODUCTS GRID */
+
 .products {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -219,7 +219,7 @@ body {
   font-weight: bold;
 }
 
-/* FOOTER */
+
 footer {
   background: #172337;
   color: #fff;
@@ -235,7 +235,7 @@ footer div {
   font-size: 14px;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 768px) {
   .topbar {
     flex-direction: column;
